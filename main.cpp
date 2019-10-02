@@ -11,8 +11,7 @@
 int main(int argc, const char * argv[])
 {
     
-    int a = 0;
-    int sum = 0;
+    int a = 0,sum = 0;
     
     std::ifstream myReadFile;
     
@@ -26,7 +25,7 @@ int main(int argc, const char * argv[])
     
     
     
-    std::cout << sum << "\n";
+    std::cout << sum << endl;
     
     return 0;
 }
